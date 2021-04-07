@@ -9,6 +9,7 @@ djangorestframework = "*"
 six = "*"
 typed-ast = "*"
 validate-docbr = "*"
+django-filter = "*"
 
 [dev-packages]
 autopep8 = "*"

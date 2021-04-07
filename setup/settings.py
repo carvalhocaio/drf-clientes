@@ -23,6 +23,7 @@ LOCAL_APPS = [
 
 THIRDS_APP = [
     'rest_framework',
+    'django_filters'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRDS_APP
