@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 six = "*"
 typed-ast = "*"
+validate-docbr = "*"
 
 [dev-packages]
 autopep8 = "*"
