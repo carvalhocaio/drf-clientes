@@ -10,6 +10,8 @@ six = "*"
 typed-ast = "*"
 validate-docbr = "*"
 django-filter = "*"
+django-heroku = "*"
+gunicorn = "==20.0.4"
 
 [dev-packages]
 autopep8 = "*"
