@@ -1,28 +1,34 @@
-# DRF School
+# DRF Clintes
+Gerenciamento de Clientes
 
-## Requirements
+## Requisitos
 - [Python](https://www.python.org/downloads/) 3.8.5 or +
 - [pipenv](https://pypi.org/project/pipenv/)
 
-## Start Application
+## Iniciando a aplicação
 
-**Start virtualenv**  
+**Criar um ambiente virtual**  
 ``` terminal
 pipenv shell
 ```
 
-**Install dependencies**  
+**Instalar as dependências do projeto**  
 ``` terminal
 pipenv install
 ```
 
-**Migrations**
+**Realizar as migrações do Django**
 ``` terminal
 python manage.py makemigrations clientes
 python manage.py migrate
 ```
 
-**Run application**  
+**Para utilizar uma base de dados com clientes fakes,executar o seguinte comando**
+``` terminal
+python populate_script.py
+```
+
+**Subir o servidor de aplicação**  
 ``` terminal
 python manage.py runserver
 ```
