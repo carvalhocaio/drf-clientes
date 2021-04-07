@@ -1,4 +1,4 @@
-# DRF Clintes
+# DRF Clientes
 Gerenciamento de Clientes
 
 ## Requisitos
