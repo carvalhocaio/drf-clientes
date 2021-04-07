@@ -6,10 +6,13 @@ name = "pypi"
 [packages]
 django = "*"
 djangorestframework = "*"
+six = "*"
+typed-ast = "*"
 
 [dev-packages]
 autopep8 = "*"
 ipython = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
