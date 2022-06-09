@@ -1,14 +1,6 @@
 # DRF Clientes
 Gerenciamento de Clientes
 
-## Deploy no Heroku
-https://crud-clients.herokuapp.com/
-
-**Para acessar utilizar as credenciais abaixo:**  
-
-- **usuário**: visitor
-- **senha**: apisenha
-
 ## Requisitos
 - [Python](https://www.python.org/downloads/) 3.8.5 or +
 - [pipenv](https://pypi.org/project/pipenv/)
